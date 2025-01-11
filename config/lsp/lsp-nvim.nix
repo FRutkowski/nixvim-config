@@ -81,6 +81,15 @@
               };
             };
           };
+          biome.enable = true;
+          volar = {
+            enable = true;
+            filetypes = [ "vue" "typescript" "javascript" ];
+            extraOptions.init_options.vue.hybridMode = false;
+          };
+          tailwindcss = {
+            enable = true;
+          };
           eslint = {
             enable = true;
           };
